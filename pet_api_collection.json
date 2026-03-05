@@ -1,0 +1,158 @@
+{
+  "info": {
+    "_postman_id": "f0629003-2f92-4eaa-b043-c4aa6cf2625a",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52926726",
+    "_collection_link": "https://go.postman.co/collection/52926726-f0629003-2f92-4eaa-b043-c4aa6cf2625a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Pet",
+      "item": [
+        {
+          "name": "http://localhost/yourpet_api/create_pet.php",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "name",
+                  "value": "Pipo",
+                  "type": "text",
+                  "uuid": "b5703700-d0b8-487b-9731-21b73457f93f"
+                },
+                {
+                  "key": "type",
+                  "value": "Dog",
+                  "type": "text",
+                  "uuid": "0478680d-42db-4e08-af4b-cf919f5209ad"
+                },
+                {
+                  "key": "id_user",
+                  "value": "1",
+                  "type": "text",
+                  "uuid": "a8df24ba-31c1-4f52-96f9-df771621898b"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost/yourpet_api/create_pet.php",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "yourpet_api",
+                "create_pet.php"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost/yourpet_api/read_pets.php",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost/yourpet_api/read_pets.php",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "yourpet_api",
+                "read_pets.php"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost/yourpet_api/update_pet.php",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "id_pet",
+                  "value": "10",
+                  "type": "text",
+                  "uuid": "a939372d-7378-4be2-a130-89c6cb4301c1"
+                },
+                {
+                  "key": "name",
+                  "value": "pipo lucu",
+                  "type": "text",
+                  "uuid": "28c6927e-5446-4f95-a0e7-0e149ee4fb4c"
+                },
+                {
+                  "key": "type",
+                  "value": "dog",
+                  "type": "text",
+                  "uuid": "27e7d3cc-e7bb-4bac-af05-4cb736b07d26"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost/yourpet_api/update_pet.php",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "yourpet_api",
+                "update_pet.php"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost/yourpet_api/delete_pet.php",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "id_pet",
+                  "value": "10",
+                  "type": "text",
+                  "uuid": "2b1eeaea-64bc-4f92-8edd-dcf410522cd1"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost/yourpet_api/delete_pet.php",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "path": [
+                "yourpet_api",
+                "delete_pet.php"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
