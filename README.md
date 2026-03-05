@@ -14,6 +14,21 @@ Proyek ini berisi API CRUD sederhana menggunakan PHP dan MySQL untuk manajemen d
 4. Gunakan Postman untuk melakukan testing endpoint.
 
 ## Bukti Testing API (Postman)
-Hasil testing API menggunakan Postman:
+Hasil testing API menggunakan Postman (Create):
 
 ![Screenshot Postman](./bukti_testing.png)
+
+## Bukti Testing API (Postman)
+Hasil testing API menggunakan Postman (Read):
+
+![Screenshot Postman](./bukti_testing1.png)
+
+## Bukti Testing API (Postman)
+Hasil testing API menggunakan Postman (Update):
+
+![Screenshot Postman](./bukti_testing2.png)
+
+## Bukti Testing API (Postman)
+Hasil testing API menggunakan Postman (Delete):
+
+![Screenshot Postman](./bukti_testing3.png)
